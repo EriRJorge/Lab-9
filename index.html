@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Calorie Calculator</h1>
+    <div id="calculator">
+        <div id="total-calories">Total Calories: <span id="calorie-count">0</span></div>
+        <div id="entry-form">
+            <input type="text" id="log-name" placeholder="Log Name">
+            <input type="number" id="calorie-amount" placeholder="Calories">
+            <select id="log-type">
+                <option value="food">Food</option>
+                <option value="exercise">Exercise</option>
+            </select>
+            <button id="add-log" type="submit">Add Log</button>
+        </div>
+        <div id="log-list">
+        </div>
+    </div>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+</div >
+    <script src="script.js" defer></script>
+</body>
+</html>
